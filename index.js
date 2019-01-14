@@ -25,7 +25,7 @@ const getPokemonAsync = async () => {
   result.forEach(name => console.log(name.name));
 
   result.forEach(character => {
-      listPokemon.innerHTML += `<li>${character.name}<img src="${character.imageUrl}"/></li>`;
+      listPokemon.innerHTML += `<li>${character.name}</li><img src="${character.imageUrl}"/>`;
   });
 
 };
